@@ -16,7 +16,9 @@ export default function HeroSection() {
             A modern and innovative solution for all your medical needs.
             Pettandi ra mee idea ikkada pettandi.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <button className="btn btn-primary">
+            <a href="/appointment">Get Started </a>
+          </button>
         </div>
       </div>
     </section>

@@ -6,9 +6,9 @@ export default function Footer() {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 px-4 md:px-0">
         {/* About Us Section */}
         <div>
-          <h2 className="text-2xl font-bold mb-4">Medilab</h2>
+          <h2 className="text-2xl font-bold mb-4">PathoVision</h2>
           <p className="text-sm">
-            Medilab is a leading healthcare provider dedicated to offering
+            PathoVision is a leading healthcare provider dedicated to offering
             top-notch medical services. We prioritize your health and
             well-being.
           </p>

@@ -58,6 +58,7 @@ export default function AppointmentPage() {
 
   // Mock file upload function (replace with actual upload logic)
   const mockFileUpload = (file: File) => {
+    console.log("Uploading file:", file.name);
     return new Promise<void>((resolve, reject) => {
       setTimeout(() => {
         resolve();

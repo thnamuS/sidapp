@@ -5,7 +5,7 @@ export default function Header() {
     <header className="bg-base-100 shadow-md sticky top-0 z-50">
       <div className="container mx-auto flex justify-between items-center p-4">
         <Link href="/" className="text-2xl font-bold">
-          Medilab
+          PathoVision
         </Link>
         <nav className="flex gap-4">
           <Link href="/" className="btn btn-ghost">
@@ -22,7 +22,7 @@ export default function Header() {
           </Link>
         </nav>
         <Link href="/appointment" className="btn btn-primary">
-          Make an Appointment
+          Upload a Vedio
         </Link>
       </div>
     </header>
